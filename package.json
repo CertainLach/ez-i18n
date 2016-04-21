@@ -10,5 +10,24 @@
   "license": "MIT",
   "dependencies": {
     "js-yaml": "^3.6.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Creeplays/i18n-translate.git"
+  },
+  "keywords": [
+    "i18n",
+    "plural",
+    "format",
+    "all",
+    "languages"
+  ],
+  "bugs": {
+    "url": "https://github.com/Creeplays/i18n-translate/issues"
+  },
+  "homepage": "https://github.com/Creeplays/i18n-translate#readme"
 }
