@@ -72,6 +72,11 @@ Othervise strings from object will be used:
     %{test5} will be 'test6'
 ```
 
+##Plurals
+```
+Syntax is #{string,count}
+```
+
 ##Test results
 ```
   Basic
