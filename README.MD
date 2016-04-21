@@ -57,6 +57,7 @@ console.log(_('msgCount', {count: 2}));
 ```
 
 ##Format string
+```
 Syntax is %{string} or %{num}
 If num used, then function uses params passed to function:
   E.g: _('str','test1','test2','test3')
@@ -69,6 +70,7 @@ Othervise strings from object will be used:
     %{test1} will be 'test2'
     %{test3} will be 'test4'
     %{test5} will be 'test6'
+```
 
 ##Test results
 ```
