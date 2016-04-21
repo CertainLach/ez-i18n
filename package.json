@@ -1,7 +1,7 @@
 {
-  "name": "i18n-translate",
+  "name": "ez-i18n",
   "version": "1.0.1",
-  "description": "I18N with built-in pluralize and format funcionality",
+  "description": "I18N with built-in pluralize and format funcionality for many languages",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
