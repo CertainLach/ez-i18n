@@ -1,6 +1,6 @@
 {
   "name": "ez-i18n",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "description": "I18N with built-in pluralize and format funcionality for many languages",
   "main": "index.js",
   "scripts": {

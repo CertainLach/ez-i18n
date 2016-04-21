@@ -22,7 +22,7 @@ plurals:
 - Then init module in your app:
 ```js
 const ez_i18n = require('ez-i18n');
-const translator = ez_i18n({
+const translator = new ez_i18n({
     langDir:__dirname+'/i18n/'
 });
 /**
