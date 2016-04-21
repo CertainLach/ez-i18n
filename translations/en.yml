@@ -1,0 +1,14 @@
+testing1:
+    string1: "Hello"
+    string2: "World"
+testing:
+    string: "!"
+test:
+    string:
+        lol: "{0} isda {1} %plural&{0}% %plural&1%%plural&6% %plural&1%"
+        lol2: "{1} isda {s}"
+
+plurals:
+    plural: 
+        - plural
+        - plurals

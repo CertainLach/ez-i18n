@@ -1,0 +1,19 @@
+test: 'ru'
+test2: '{1} ru {3}'
+test3: '{1} ru {1}'
+test4: '{data1} ru {data2}'
+test5: '{data1} ru {data1}'
+
+test6: '1 %подарок&1%'
+test7: '2 %подарок&2%'
+test8: '12 %подарок&12%'
+
+test9:
+    test:
+        test: 'Успешен'
+
+plurals:
+    подарок:
+        - подарок
+        - подарка
+        - подарков

@@ -1,0 +1,17 @@
+test: 'en'
+test2: '{3} en {2}'
+test3: '{1} en {1}'
+test4: '{data1} en {data2}'
+test5: '{data1} en {data1}'
+
+test6: '1 %gift&1%'
+test7: '2 %gift&2%'
+
+test9:
+    test:
+        test: 'Success'
+
+plurals:
+    gift:
+        - gift
+        - gifts

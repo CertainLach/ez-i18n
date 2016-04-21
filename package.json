@@ -1,0 +1,14 @@
+{
+  "name": "i18n-translate",
+  "version": "1.0.1",
+  "description": "I18N with built-in pluralize and format funcionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "F6CF",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.6.0"
+  }
+}
