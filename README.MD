@@ -55,3 +55,23 @@ console.log(_('msgCount', {count: 1}));
 console.log(_('msgCount', {count: 2}));
 // You have 2 messages
 ```
+
+##Test results
+```
+  Basic
+    #Init
+      ✓ should start correctly
+      ✓ should return translator function
+    #Translate
+      ✓ should return correct string for every language
+    #Templating
+      ✓ should return correct templated string for all arguments
+      ✓ should return correct templated string for data object
+    #Pluralizing
+      ✓ should correctly pluralize a string for all languages
+    #Misc
+      ✓ can work for yml structures
+
+
+  7 passing (8ms)
+```
