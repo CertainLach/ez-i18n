@@ -56,6 +56,20 @@ console.log(_('msgCount', {count: 2}));
 // You have 2 messages
 ```
 
+##Format string
+Syntax is %{string} or %{num}
+If num used, then function uses params passed to function:
+  E.g: _('str','test1','test2','test3')
+    %{1} will be 'test1'
+    %{2} will be 'test2'
+    %{3} will be 'test3'
+
+Othervise strings from object will be used:
+  E.g: _('str',{test1:'test2',test3:'test4',test5:'test6'})
+    %{test1} will be 'test2'
+    %{test3} will be 'test4'
+    %{test5} will be 'test6'
+
 ##Test results
 ```
   Basic
