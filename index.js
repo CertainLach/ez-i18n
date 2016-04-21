@@ -57,6 +57,18 @@ class translator {
                 if (self.debug)
                     console.log('in context', context, format);
                 retval = context;
+                let matchedAll=retval.match(/\$\{[^}]+\}/g);
+                if(matchedAll){
+                    matchedAll.forEach(matched=>{
+                        var mchStr=matched.match(/\$\{([^}]+)\}/)[1];
+                        if(!self.languages[lang].randoms[mchStr]){
+                            retval=retval.replace(new RegExp(matched,'g'),'No such random string: '+mchStr+'.');
+                        }else{
+                            var randStr=self.languages[lang].randoms[mchStr][Math.floor(Math.random()*self.languages[lang].randoms[mchStr].length)];
+                            retval=retval.replace(matched,randStr);
+                        }
+                    });
+                }
                 if (typeof format[0] == 'object') {
                     if (format[1])
                         if (self.warn)

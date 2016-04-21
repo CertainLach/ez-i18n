@@ -49,6 +49,12 @@ describe('Basic', function () {
             assert.equal('12 подарков', translator('ru')('test8'));
         });
     });
+    describe('#Randomize', function () {
+        it('should return random string', function () {
+            assert.equal(true, !!(['Hi','Hello','Ni hao'].indexOf(translator('en')('test10'))+1));
+            assert.equal(true, !!(['Хай','Привет','Здравствуй'].indexOf(translator('ru')('test10'))+1));
+        });
+    });
     describe('#Misc', function () {
         it('can work for yml structures', function () {
             assert.equal('Success', translator('en')('test9.test.test'));

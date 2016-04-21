@@ -76,6 +76,10 @@ Othervise strings from object will be used:
 ```
 Syntax is #{string,count}
 ```
+##Randoms
+```
+Syntax is ${string}
+```
 
 ##Test results
 ```
