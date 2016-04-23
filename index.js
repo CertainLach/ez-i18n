@@ -82,13 +82,13 @@ class translator {
                         retval = retval.replace(new RegExp('%\\{' + (i+1) + '\\}', 'g'), r);
                     });
                 }
-                let plurals=retval.match(/(#\{[^%&]+,[0-9]+\})/g);
+                let plurals=retval.match(/(#\{[^,}0-9]+,[0-9]+\})/g);
                 if(!plurals)
                     return retval;
                 if(self.debug)
                     console.log(plurals);
                 plurals.forEach(plural=>{
-                    let plinfo=plural.match(/#\{([^&%]+),([0-9]+)\}/);
+                    let plinfo=plural.match(/#\{([^,}0-9]+),([0-9]+)\}/);
                     let out=self.languages[lang].plurals[plinfo[1]];
                     if(self.debug)
                         console.log(out,self.languages[lang].plurals);
