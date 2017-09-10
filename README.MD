@@ -1,5 +1,7 @@
 # EZ-I18N
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Creeplays/ez-i18n.svg)](https://greenkeeper.io/)
+
 ## Features:
 - Requires only one external module
 - Contains built-in formatter support (For strings and objects)
